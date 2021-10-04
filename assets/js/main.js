@@ -22,7 +22,7 @@
   $(".bundle-slider").owlCarousel({
     loop: true,
     margin: 40,
-    items: 2,
+    items: 2, 
     navText: [
       '<i class="fa fa-angle-right"></i>',
       '<i class="fa fa-angle-left"></i>'

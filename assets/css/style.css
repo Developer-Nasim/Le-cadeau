@@ -363,8 +363,7 @@ header {
   overflow: hidden;
 }
 .slidesArea {
-  width: 100%;
-  overflow: hidden;
+  width: 100%; 
   position: absolute;
   z-index: 3;
   left: 11%;
@@ -374,14 +373,20 @@ header {
   max-width: 400px;
 }
 .bundle-slider {
-  padding-left: 25px;
+  margin-left: 25px;
+}
+.slidesArea:after, .slidesArea:before {content: "";width: 52%;height: 1px;background: #c8b9ad;position: absolute;top: 0;left: 25px;}
+
+.slidesArea:before {
+    width: 1px;
+    height: 125%;
 }
 
 .bundle-slider .owl-nav {
   width: max-content;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -25px;
 }
 .owl-nav i {
   font-weight: 300;
@@ -465,7 +470,9 @@ header {
   color: #8E6749;
   font-weight: 400;
 }
-
+.owl-item.active:first-child{
+  background-color: red;
+}
 
 
 
