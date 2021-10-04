@@ -238,7 +238,7 @@ header {
   top: 15px;
   width: 40px;
   height: 40px;
-  background: #ff4900;
+  background: #3e3e3e;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
@@ -359,7 +359,7 @@ header {
 .bundles-area {
   padding: 100px 0;
   position: relative;
-  min-height: 900px;
+  min-height: 860px;
   overflow: hidden;
 }
 .slidesArea {
@@ -367,7 +367,7 @@ header {
   position: absolute;
   z-index: 3;
   left: 11%;
-  top: 26%;
+  top: 240px;
 }
 .bundle-blk img {
   max-width: 400px;
@@ -484,6 +484,7 @@ header {
   color: #fff;
   background: #2C2C2C;
   padding: 100px 0;
+  overflow: hidden;
 }
 
 .curators-left p {
@@ -629,7 +630,7 @@ footer h5 {
   margin-right: 30px;
 }
 
-.footer-social p {
+p.copyRightTxt {
   margin: 0;
   font-weight: 300;
   font-size: 8px;
