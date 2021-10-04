@@ -11,9 +11,12 @@
   $(".hero-area").owlCarousel({
     loop: true, 
     items: 1,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    mouseDrag: false,
     navText: [
-      '<i class="fa fa-angle-right"></i>',
-      '<i class="fa fa-angle-left"></i>'
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
     ],
     nav: true,
     dots: false, 

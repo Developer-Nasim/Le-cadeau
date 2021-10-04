@@ -9,10 +9,22 @@
 /* Big screen :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-    .slidesArea { 
-        left: 1%; 
-      }
-
+.slidesArea { 
+    left: 1%; 
+  }
+  .rightMenu li a {
+    margin-left: 8px;
+  }
+  .leftMenu li a {
+    margin-right: 8px;
+  }
+  .hero-items { 
+    padding-top: 170px;
+}
+.hero-area .owl-nav { 
+  top: 25%;
+  left: 49%; 
+}
 }
 
 
